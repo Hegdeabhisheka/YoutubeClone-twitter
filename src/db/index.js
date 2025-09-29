@@ -8,6 +8,7 @@ const connectDB=async()=>{
     }
     catch(error){
         console.log("mongo db connoction error failed",error)
+        process.exit(1);
 
     }
 }
